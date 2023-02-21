@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/logo.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Skracacz linków</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script defer src="js/script.js"></script>
+  </head>
+  <body>
+    <div class="container justify-center">
+      <img class="logo" src="img/logo.png" />
+      <form>
+        <h2>Skróć link</h2>
+        <div class="link-box">
+          <input
+            type="text"
+            class="link-input long-input"
+            placeholder="Link do skrócenia"
+          />
+        </div>
+        <span class="link-icon"><i class="fa-solid fa-link-slash"></i></span>
+        <div class="link-box">
+          <input
+            type="text"
+            class="link-input short-link"
+            placeholder=""
+            value="Skrócony link"
+            disabled
+          />
+          <button class="link-btn" disabled>
+            <i class="fa-solid fa-copy"></i>
+            <span class="copy none">Skopiowano</span>
+          </button>
+        </div>
+        <button class="get-link">
+          <i class="fa-solid fa-scissors"></i> Tnij
+        </button>
+        <span class="decoration--1"></span>
+        <span class="decoration--2"></span>
+        <span class="decoration--3"></span>
+        <span class="decoration--4"></span>
+        <span class="decoration--5"></span>
+      </form>
+    </div>
+  </body>
+</html>

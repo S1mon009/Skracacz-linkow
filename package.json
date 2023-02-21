@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "gotiny": "^1.5.3",
+    "uniq": "^1.0.1"
+  },
+  "devDependencies": {
+    "browserify": "^17.0.0"
+  }
+}
