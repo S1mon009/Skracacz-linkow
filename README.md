@@ -4,10 +4,6 @@
 # Prosty oraz funkcjonalny
 Aplikacja umożliwia skrócenie długich, kłopotliwych linków w krótkie i przejrzyste. Do poprawnego działania jest potrebny protokół web API gotiny oraz open-source'owe narzędzie do tworzenia pakietów JavaScript, które umożliwia programistom pisanie i używanie modułów w stylu Node.js, które kompilują się do użytku w przeglądarce, które nazywa się browserify.
 
-# Kroki do uruchomienia:
-- Pobierz cały kod,
-- Otwórz plik index.html.
-
 # Użyte technologie:
 - HTML,
 - CSS,
